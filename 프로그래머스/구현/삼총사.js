@@ -13,6 +13,7 @@ function solution(number) {
   return answer;
 }
 
+// start가 뎁스의 크기
 const combination = (current, start) => {
   if (current.length === 3) {
     result += current.reduce((acc, cur) => acc + cur, 0) === 0 ? 1 : 0;
